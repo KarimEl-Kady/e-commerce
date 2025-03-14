@@ -30,6 +30,7 @@ class AppServiceProvider extends ServiceProvider
             if (class_exists($providerClass)) {
                 $this->app->register($providerClass);
             }
+        }
     }
 
 
